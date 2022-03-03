@@ -158,7 +158,7 @@ void loop() {
     REG_PIOA_SODR = outPin;
   }else REG_PIOA_CODR = outPin;
 
-  REG_PIOA_SODR = outPin;
-  REG_PIOA_CODR = outPin;
+  //REG_PIOA_SODR = outPin;
+  //REG_PIOA_CODR = outPin;
   //Serial.print("Hello");
 }
